@@ -24,12 +24,10 @@ Make sure you are running the script on a Debian 12 system, you must also have d
 To download and execute the script, use the following commands:
 
 ```bash
-su
 wget https://raw.githubusercontent.com/PikaFr/insatllation-paquets-debian/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
-The script will be exectute with the root's account.
 
 ## Customization:
 Edit the script to customize installed packages based on your needs.
