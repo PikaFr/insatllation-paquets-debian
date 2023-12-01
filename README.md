@@ -1,2 +1,2 @@
-# insatllation-paquets-debian
-Automatically installs the main debian 12 packages
+# How to use ?
+For download and excute the script, you have to 
