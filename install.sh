@@ -11,7 +11,7 @@ apt update
 apt upgrade
 
 # Installing basic packages
-apt install -y wget sudo htop screen netstat openssh-server unzip curl net-tools
+apt install -y sudo htop screen netstat openssh-server unzip curl net-tools
 
 # Enabling SSH
 service ssh start
