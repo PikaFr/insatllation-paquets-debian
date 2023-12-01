@@ -17,7 +17,7 @@ Feel free to customize the script by adding or removing packages based on your s
 
 ### Prerequisites
 
-Make sure you are running the script on a Debian 12 system.
+Make sure you are running the script on a Debian 12 system, you must also have downloaded wget (`apt-get install wget`) and you must be logged in as root.
 
 ### Download and Execute
 
