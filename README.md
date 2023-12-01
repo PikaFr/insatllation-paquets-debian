@@ -24,7 +24,7 @@ Make sure you are running the script on a Debian 12 system, you must also have d
 To download and execute the script, use the following commands:
 
 ```bash
-wget https://raw.githubusercontent.com/PikaFr/insatllation-paquets-debian/main/install.sh
+wget https://raw.githubusercontent.com/PikaFr/installation-basic-packages-debian12/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -33,4 +33,4 @@ chmod +x install.sh
 Edit the script to customize installed packages based on your needs.
 
 ### Download Link
-[Download install.sh](https://raw.githubusercontent.com/PikaFr/insatllation-paquets-debian/main/install.sh)
+[Download install.sh](https://raw.githubusercontent.com/PikaFr/installation-basic-packages-debian12/main/install.sh)
