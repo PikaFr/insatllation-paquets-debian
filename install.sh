@@ -1,21 +1,19 @@
 #!/bin/bash
 
-# Vérification si l'utilisateur est root
+# Checking if the user is root
 if [ "$EUID" -ne 0 ]; then
-  echo "Ce script doit être exécuté en tant que root. Utilisez su."
+  echo "This script must be run as root. Use \e[36msu\e[0m"
   exit 1
 fi
 
-# Mise à jour des dépôts
+# Updating repositories
 apt update
 apt upgrade
 
-# Installation des paquets de base
+# Installing basic packages
 apt install -y wget sudo htop screen netstat openssh-server unzip curl net-tools
 
-# Activation du SSH
+# Enabling SSH
 service ssh start
 
-# Configuration supplémentaire si nécessaire
-
-echo -e "L'installation des paquets est terminée.\nFaites \e[36mchmod +x install.sh\e[0m.\nPuis, faites \e[36m./install.sh\e[0m"
+echo -e "Package installation is complete.\nDo \e[36mchmod +x install.sh\e[0m.\nThen, do \e[36m./install.sh\e[0m"
