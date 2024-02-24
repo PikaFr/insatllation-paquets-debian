@@ -4,7 +4,7 @@
 
 This script automates the installation of essential packages on a fresh Debian 12 system. It helps you quickly set up a new environment with commonly used tools.
 
-## What it Does
+## What is it doing
 
 The script performs the following tasks:
 
