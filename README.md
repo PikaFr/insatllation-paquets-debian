@@ -9,7 +9,7 @@ This script automates the installation of essential packages on a fresh Debian 1
 The script performs the following tasks:
 
 - Updates package repositories.
-- Installs a set of essential packages for system administration and basic utilities. (sudo, htop, screen, netstat, openssh-server, unzip, curl, net-tools)
+- Installs a set of essential packages for system administration and basic utilities. (sudo, htop, screen, openssh-server, unzip, curl, net-tools)
 
 Feel free to customize the script by adding or removing packages based on your specific needs.
 
